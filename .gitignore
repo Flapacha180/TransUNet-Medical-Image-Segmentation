@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and model weights (too large for git)
+data/
+model/
+predictions/
+
+# Logs
+test_log/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.tar.gz
+*.zip
